@@ -18,3 +18,35 @@ example of a call
 ```
 fizzBuzz(multiples, 1, 100)
 ```
+
+# Explination:
+
+lambda takes in dict of multiples and range arguments 
+
+```
+lambda multiples, *rangeArg:
+```
+
+output the values if the multiple goes into i
+
+```
+multiples[multiple]*(i%multiple==0)
+```
+
+for each multiple in the multiples dictionary
+
+```
+for multiple in multiples
+```
+
+else output i
+
+```
+or i
+```
+
+do this for every number i in the range given
+```
+for i in range(*rangeArg)
+```
+
