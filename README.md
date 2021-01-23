@@ -19,7 +19,7 @@ example of a call
 fizzBuzz(multiples, 1, 100)
 ```
 
-# Explination:
+# Explanation:
 
 lambda takes in dict of multiples and range arguments 
 
